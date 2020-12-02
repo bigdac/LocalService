@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.1"
     defaultConfig {
         applicationId "com.li.localservice"
-        minSdkVersion 21
+        minSdkVersion rootProject.minSdkVersion
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
